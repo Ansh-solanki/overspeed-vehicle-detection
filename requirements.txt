@@ -1,0 +1,11 @@
+torch
+opencv-python
+numpy
+pandas
+matplotlib
+seaborn
+streamlit
+filterpy
+scikit-image
+ultralytics
+tqdm
