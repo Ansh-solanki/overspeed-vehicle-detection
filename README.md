@@ -1,45 +1,80 @@
 # 🚗 Overspeed Vehicle Detection System
 
-An end-to-end intelligent traffic monitoring system that detects, tracks, and identifies overspeeding vehicles using computer vision and provides analytics via an interactive dashboard.
+An end-to-end computer vision system for detecting, tracking, and analyzing overspeeding vehicles from traffic videos, with data logging, visual evidence capture, and an interactive analytics dashboard.
 
 ---
 
-## 🔥 Features
+## 📌 Overview
 
-- Real-time vehicle detection using YOLOv5
-- Object tracking using SORT algorithm
-- Speed estimation using motion analysis
-- Overspeed violation detection
-- CSV-based logging system
-- Snapshot capture of violating vehicles
-- Interactive Streamlit dashboard
-- Data visualization (graphs, trends, insights)
+This project implements a complete pipeline for intelligent traffic monitoring. It integrates detection, tracking, speed estimation, violation detection, data logging, and visualization into a single system.
+
+The goal is to move beyond standalone models and build a **full working system** that processes real-world video data and generates actionable insights.
 
 ---
 
-## 🧠 Tech Stack
-
-- Python
-- OpenCV
-- YOLOv5 (PyTorch)
-- SORT Tracker
-- Pandas, NumPy
-- Streamlit
-- Matplotlib, Seaborn
+## 🧠 Pipeline
 
 ---
 
-## 📊 Dashboard Preview
+## ⚙️ Tech Stack
 
-- Speed vs Time Graph
-- Violation Distribution
-- Filter-based analysis
-- Vehicle snapshots
+- **Python**
+- **YOLOv5 (PyTorch)** – Object Detection  
+- **SORT Algorithm** – Multi-object Tracking  
+- **OpenCV** – Video Processing  
+- **NumPy, Pandas** – Data Handling  
+- **Matplotlib, Seaborn** – Visualization  
+- **Streamlit** – Dashboard Interface  
 
 ---
 
-## 🚀 How to Run
+## 🚀 Features
 
-### 1. Install dependencies
+- Real-time vehicle detection and tracking  
+- Motion-based speed estimation  
+- Overspeed violation detection  
+- CSV-based logging of violations  
+- Snapshot capture of violating vehicles  
+- Interactive dashboard for data analysis  
+- Graph-based insights (speed trends, distributions)  
+
+---
+
+## 📊 Dashboard Highlights
+
+- Summary metrics (total violations, max speed, average speed)  
+- Speed-based filtering of violations  
+- Speed vs time visualization  
+- Speed distribution analysis  
+- Time-based violation trends  
+- Display of captured vehicle snapshots  
+- Processed video playback  
+
+---
+
+## 📁 Project Structure
+
+---
+
+## ▶️ How to Run
+
+### 1. Clone the repository
 ```bash
+git clone https://github.com/YOUR_USERNAME/overspeed-vehicle-detection.git
+cd overspeed-vehicle-detection
+
 pip install -r requirements.txt
+
+python main.py
+
+streamlit run dashboard.py
+
+
+---
+
+If you want next upgrade:
+- GitHub badges  
+- Screenshots section  
+- Demo GIF/video embed  
+
+Just tell me 👍
